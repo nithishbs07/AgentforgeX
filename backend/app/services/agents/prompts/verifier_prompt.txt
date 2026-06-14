@@ -1,0 +1,15 @@
+Determine whether the generated answer is supported by the supplied evidence.
+Provide a groundedness score from 0.0 to 1.0, a status (SUPPORTED, PARTIALLY_SUPPORTED, or UNSUPPORTED), and a brief reason.
+
+Query: {query}
+Retrieved Evidence:
+{evidence}
+
+Answer: {answer}
+
+Your response must be a valid JSON object matching this schema:
+{{
+  "score": 0.91,
+  "status": "SUPPORTED",
+  "reason": "The answer is fully grounded in the supplied context."
+}}

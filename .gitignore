@@ -1,0 +1,25 @@
+# Environment variables
+.env
+.env.local
+.env.production
+backend/.env
+
+# Node.js dependencies & builds
+node_modules/
+.next/
+dist/
+build/
+
+# Python environments & cache
+venv/
+.venv/
+**/__pycache__/
+*.pyc
+
+# Local data & backups
+chromadb_data/
+backups/
+agentforge.db
+*.log
+.pytest_cache/
+backend/.pytest_cache/

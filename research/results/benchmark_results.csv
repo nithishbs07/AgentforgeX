@@ -1,0 +1,9 @@
+id,strategy,category,query,latency_ms,faithfulness,verification_score,grounding_score,answer_relevancy,context_precision,context_recall,retrieval_quality,research_quality,evidence_count,sub_question_count
+1,Vector RAG,High Performance Computing,What are the parameters of OpenMP thread configuration? (instance 1),65.58,0.703,0.5275,0.179,0.8084,0.738,0.7249,0.7314,0.7557,3,1
+2,Vector RAG,Computer Networks,Compare transmission control protocol and user datagram protocol. (instance 1),63.62,0.7038,0.5094,0.1802,0.7922,0.723,0.7002,0.7116,0.748,5,1
+1,Graph RAG,High Performance Computing,What are the parameters of OpenMP thread configuration? (instance 1),54.07,0.772,0.5989,0.2971,0.7408,0.7967,0.7177,0.7572,0.7564,3,1
+2,Graph RAG,Computer Networks,Compare transmission control protocol and user datagram protocol. (instance 1),44.73,0.7715,0.6163,0.2123,0.7856,0.7431,0.6682,0.7056,0.7785,3,1
+1,Hybrid RAG,High Performance Computing,What are the parameters of OpenMP thread configuration? (instance 1),81.32,0.873,0.6336,0.3765,0.8454,0.8352,0.8195,0.8274,0.8592,6,1
+2,Hybrid RAG,Computer Networks,Compare transmission control protocol and user datagram protocol. (instance 1),70.98,0.8705,0.5846,0.2796,0.8347,0.788,0.7479,0.768,0.8526,4,1
+1,Deep Research RAG,High Performance Computing,What are the parameters of OpenMP thread configuration? (instance 1),130.41,0.9253,0.7034,0.3744,0.9191,0.9237,0.9042,0.914,0.9222,11,4
+2,Deep Research RAG,Computer Networks,Compare transmission control protocol and user datagram protocol. (instance 1),105.71,0.9435,0.6734,0.3867,0.9308,0.8797,0.931,0.9054,0.9371,11,4

@@ -1,0 +1,22 @@
+[
+  {
+    "query": "How does the sliding window protocol manage flow control?",
+    "complexity": "medium",
+    "target_retriever": "vector"
+  },
+  {
+    "query": "Compare TCP and UDP connection management and transmission overheads.",
+    "complexity": "high",
+    "target_retriever": "hybrid"
+  },
+  {
+    "query": "Explain how the slow start threshold (ssthresh) regulates congestion window expansion.",
+    "complexity": "high",
+    "target_retriever": "graph"
+  },
+  {
+    "query": "Summarize parallel speedup limits using Amdahl's Law and thread count boundaries.",
+    "complexity": "high",
+    "target_retriever": "hybrid"
+  }
+]

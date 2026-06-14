@@ -1,0 +1,27 @@
+=== COMPUTER NETWORKS: CONGESTION CONTROL AND SLIDING WINDOW ===
+
+1. CONGESTION CONTROL
+TCP congestion control limits the sender's transmission rate depending on detected network congestion.
+The Congestion Window (cwnd) dictates how many bytes can be outstanding at any moment.
+During Slow Start, cwnd increases exponentially by doubling every RTT.
+This exponential growth continues until cwnd reaches ssthresh (Slow Start Threshold).
+After ssthresh, TCP enters Congestion Avoidance, utilizing Additive Increase Multiplicative Decrease (AIMD).
+Under AIMD, cwnd increases linearly by 1 MSS per RTT, and drops by half (multiplicative decrease) when a packet loss is detected.
+
+2. FLOW CONTROL AND SLIDING WINDOW
+Flow control ensures a fast sender does not overwhelm a slow receiver.
+The sliding window protocol regulates outstanding packets. The receiver advertises a receive window (rwnd) reflecting available buffer space.
+The sender's window size is set to the minimum of cwnd and rwnd: Window = min(cwnd, rwnd).
+
+=== HIGH PERFORMANCE COMPUTING: OPENMP AND AMDAHL'S LAW ===
+
+1. THREAD CONFIGURATION
+OpenMP provides multi-threaded capabilities in C/C++ via compiler directives like #pragma omp parallel.
+Threads are configured using the OMP_NUM_THREADS environment variable or omp_set_num_threads() API.
+Thread safety requires atomic directives, critical sections, or mutexes to prevent race conditions on shared memory spaces.
+
+2. PARALLEL SPEEDUP AND AMDAHL'S LAW
+Amdahl's Law models the theoretical speedup limit of executing a program in parallel.
+Let P be the parallel portion of a program, and S = 1 - P be the serial portion.
+The maximum speedup using N processor cores is: Speedup = 1 / ((1 - P) + P/N).
+Even with infinite processors, speedup is bounded by 1 / (1 - P), meaning the serial portion limits speedup.

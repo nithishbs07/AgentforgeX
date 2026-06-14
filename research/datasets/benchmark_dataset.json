@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "query": "What are the parameters of OpenMP thread configuration?",
+    "expected_answer": "OpenMP thread configuration is managed by environment variables like OMP_NUM_THREADS, or API calls like omp_set_num_threads(), which dictate parallel region sizing.",
+    "category": "High Performance Computing"
+  },
+  {
+    "id": 2,
+    "query": "Compare transmission control protocol and user datagram protocol.",
+    "expected_answer": "TCP is a connection-oriented, reliable protocol offering flow and congestion control, whereas UDP is connectionless, unreliable, low-overhead, and message-oriented.",
+    "category": "Computer Networks"
+  },
+  {
+    "id": 3,
+    "query": "Explain the relationship between Congestion Window and Slow Start Threshold.",
+    "expected_answer": "In TCP congestion control, the sender increases congestion window (cwnd) exponentially during Slow Start until cwnd reaches slow start threshold (ssthresh), after which it enters Congestion Avoidance (additive increase).",
+    "category": "Computer Networks"
+  },
+  {
+    "id": 4,
+    "query": "Summarize AIMD algorithm features in transport layer protocols.",
+    "expected_answer": "AIMD (Additive Increase Multiplicative Decrease) increases congestion window by 1 MSS per RTT upon successful transmissions and halves it when packet drops are detected.",
+    "category": "Computer Networks"
+  },
+  {
+    "id": 5,
+    "query": "What does the document say about thread safety and memory model?",
+    "expected_answer": "Thread safety requires synchronization primitives (locks, semaphores, mutexes) to avoid race conditions. The memory model defines visibility and ordering guarantees across threads.",
+    "category": "Operating Systems"
+  },
+  {
+    "id": 6,
+    "query": "Explain the parallel execution speedup and Amdahl's Law.",
+    "expected_answer": "Amdahl's Law calculates the theoretical speedup of executing a program in parallel as 1 / ((1 - P) + P/N), where P is parallel proportion and N is processors.",
+    "category": "High Performance Computing"
+  },
+  {
+    "id": 7,
+    "query": "Detail how the routing graph represents node connections.",
+    "expected_answer": "The routing graph represents network topologies, where vertices denote routers/devices and directed edges model latency, hop cost, or physical connections.",
+    "category": "Graph Systems"
+  },
+  {
+    "id": 8,
+    "query": "What is the connection between sliding window and flow control?",
+    "expected_answer": "The sliding window protocol regulates transmission speed, allowing the sender to transmit multiple packets before receiving an acknowledgment, aligning with receiver buffer limits.",
+    "category": "Computer Networks"
+  },
+  {
+    "id": 9,
+    "query": "Summarize TCP timeout and retransmission timer calculation.",
+    "expected_answer": "TCP timeout is calculated dynamically using smoothed round-trip time (SRTT) and round-trip time variation (RTTVAR): RTO = SRTT + 4 * RTTVAR.",
+    "category": "Computer Networks"
+  },
+  {
+    "id": 10,
+    "query": "Compare multi-threading and multi-processing overheads.",
+    "expected_answer": "Multi-threading shares virtual address space and has lower context switch overhead, whereas multi-processing isolates memory spaces and has higher isolation security and switch overhead.",
+    "category": "Operating Systems"
+  }
+]
