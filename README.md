@@ -163,18 +163,59 @@ NEO4J_PASSWORD="password"
 
 ---
 
-## Screenshots
+# Screenshots
 
-Below are the key UI views of AgentForge-X:
+## Homepage
 
-### Chat Workspace
-![Chat Workspace](docs/screenshots/chat.png)
+![Homepage](Assets/HOMEPAGE.png)
 
-### Ingestion & Documents
-![Ingestion & Documents](docs/screenshots/home.png)
+## Overview
 
-### System Observability Dashboard
-![System Evaluation Dashboard](docs/screenshots/dashboard.png)
+![Overview](Assets/OVERVIEW.png)
+
+## Research Analytics
+
+![Research Analytics](Assets/RESEARCH%20ANALYTICS.png)
+
+## Deployment Metrics
+
+![Deployment Metrics](Assets/DEPLOYMENT%20METRICS.png)
+
+## Verification
+
+![Verification](Assets/VERIFICATION.png)
+
+## Verification Timeline
+
+![Verification Timeline](Assets/VERIFICATION%20TIMELINE.png)
+
+## Routing
+
+![Routing](Assets/ROUTING.png)
+
+## Retrieval
+
+![Retrieval](Assets/RETRIEVAL.png)
+
+## Evidence Timeline
+
+![Evidence Timeline](Assets/EVIDENCE%20TIMELINE.png)
+
+## Knowledge Graph
+
+![Knowledge Graph](Assets/KNOWLEDGE%20GRAPH.png)
+
+## Latency
+
+![Latency](Assets/LATENCY.png)
+
+## Latency Timeline
+
+![Latency Timeline](Assets/LATENCY%20TIMELINE.png)
+
+## Log Query History
+
+![Log Query History](Assets/LOG%20QUERY%20HISTORY.png)
 
 *(Screenshots can be added under the `docs/screenshots/` directory)*
 
