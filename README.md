@@ -165,60 +165,83 @@ NEO4J_PASSWORD="password"
 
 # Screenshots
 
-## Homepage
+# Screenshots
 
 ## Homepage
 
 ![Homepage](./Assests/HOMEPAGE.png)
 
+---
+
 ## Overview
 
-![Overview](Assets/OVERVIEW.png)
+![Overview](./Assests/OVERVIEW.png)
+
+---
 
 ## Research Analytics
 
-![Research Analytics](Assets/RESEARCH%20ANALYTICS.png)
+![Research Analytics](./Assests/RESEARCH%20ANALYTICS.png)
+
+---
 
 ## Deployment Metrics
 
-![Deployment Metrics](Assets/DEPLOYMENT%20METRICS.png)
+![Deployment Metrics](./Assests/DEPLOYMENT%20METRICS.png)
+
+---
 
 ## Verification
 
-![Verification](Assets/VERIFICATION.png)
+![Verification](./Assests/VERIFICATION.png)
+
+---
 
 ## Verification Timeline
 
-![Verification Timeline](Assets/VERIFICATION%20TIMELINE.png)
+![Verification Timeline](./Assests/VERIFICATION%20TIMELINE.png)
+
+---
 
 ## Routing
 
-![Routing](Assets/ROUTING.png)
+![Routing](./Assests/ROUTING.png)
+
+---
 
 ## Retrieval
 
-![Retrieval](Assets/RETRIEVAL.png)
+![Retrieval](./Assests/RETRIEVAL.png)
+
+---
 
 ## Evidence Timeline
 
-![Evidence Timeline](Assets/EVIDENCE%20TIMELINE.png)
+![Evidence Timeline](./Assests/EVIDENCE%20TIMELINE.png)
+
+---
 
 ## Knowledge Graph
 
-![Knowledge Graph](Assets/KNOWLEDGE%20GRAPH.png)
+![Knowledge Graph](./Assests/KNOWLEDGE%20GRAPH.png)
+
+---
 
 ## Latency
 
-![Latency](Assets/LATENCY.png)
+![Latency](./Assests/LATENCY.png)
+
+---
 
 ## Latency Timeline
 
-![Latency Timeline](Assets/LATENCY%20TIMELINE.png)
+![Latency Timeline](./Assests/LATENCY%20TIMELINE.png)
+
+---
 
 ## Log Query History
 
-![Log Query History](Assets/LOG%20QUERY%20HISTORY.png)
-
+![Log Query History](./Assests/LOG%20QUERY%20HISTORY.png)
 *(Screenshots can be added under the `docs/screenshots/` directory)*
 
 ---
