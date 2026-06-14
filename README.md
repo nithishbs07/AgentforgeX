@@ -167,7 +167,9 @@ NEO4J_PASSWORD="password"
 
 ## Homepage
 
-![Homepage](Assets/HOMEPAGE.png)
+## Homepage
+
+![Homepage](./Assests/HOMEPAGE.png)
 
 ## Overview
 
